@@ -1,8 +1,8 @@
 import "./App.css";
-import { Footer } from "./footer";
-import { Navigation } from "./navigation";
-import { Images } from "./images";
-import { Links } from "./links";
+import { Footer } from "./components/footer";
+import { Navigation } from "./components/navigation";
+import { Images } from "./components/images";
+import { Links } from "./components/links";
 function App() {
   return (
     <Layout>

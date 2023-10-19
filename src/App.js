@@ -1,14 +1,16 @@
 import "./App.css";
-import { Footer } from "./components/footer";
+import Footer from "./components/footer";
 import { Navigation } from "./components/navigation";
 import { Images } from "./components/images";
 import { Links } from "./components/links";
+
 function App() {
   return (
     <Layout>
       <Navigation />
       <Images />
       <Links />
+      <Footer />
     </Layout>
   );
 }
@@ -26,7 +28,7 @@ const Layout = ({ children }) => {
         </h1>
       </div>
       {children}
-      <Footer />
+      
     </>
   );
 };

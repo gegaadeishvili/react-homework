@@ -1,0 +1,14 @@
+.linksCont{
+    display: flex;
+    gap: 400px;
+    padding-left: 100px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.imagePart > img{
+    width: 500px;
+    height: 300px;
+}

@@ -1,5 +1,7 @@
 import React from "react";
-import "./links.css"
+
+import "./Links.css"
+
 export const Links = () =>{
     return <div className="linksCont">
     <div className="listPart">

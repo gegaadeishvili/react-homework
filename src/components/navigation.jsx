@@ -1,5 +1,5 @@
 import React from "react";
-import "./navigation.css"
+import "./Navigation.css"
 export const Navigation = () => {
     return <div className="navigation">
         <p className="navParagraphs">active</p>

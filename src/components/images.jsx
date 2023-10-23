@@ -1,5 +1,5 @@
 import React from "react";
-import "./images.css"
+import "./Images.css"
 export const Images = () =>{
     return <div className="wholeImg">
         <div className="FirstHalf">
